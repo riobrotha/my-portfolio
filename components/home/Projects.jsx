@@ -19,6 +19,37 @@ import Reveal from "../animation/Reveal";
 const Projects = () => {
   const myProjects = [
     {
+      title: "Otomobil from Coding.id",
+      desc: "Learn to drive car",
+      img: "/projects/otomobil.webp",
+      link: "https://gitlab.com/str.rnl/otomobil-team02",
+      tech: [
+        "HTML",
+        "CSS",
+        "React",
+        "Material UI",
+        "React Context",
+        "Axios",
+        ".NET Core",
+        "C#",
+      ],
+    },
+    {
+      title: "Qur'an Web",
+      desc: "A Holy Qur'an in web.",
+      img: "/projects/qur_an-web.webp",
+      link: "https://github.com/riobrotha/qur-an-web",
+      tech: [
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Vue",
+        "Pinia State Management",
+        "Axios",
+        "Equr'an API",
+      ],
+    },
+    {
       title: "E-Commerce Soraya Bedsheet",
       desc: "Shopping with experience.",
       img: "/projects/sorayabedsheet.webp",
@@ -64,11 +95,34 @@ const Projects = () => {
       ],
     },
     {
-      title: "Qur'an Web",
-      desc: "A Holy Qur'an in web.",
-      img: "/projects/qur_an-web.webp",
-      link: "https://github.com/riobrotha/qur-an-web",
-      tech: ["HTML", "CSS", "Tailwind CSS", "Vue"],
+      title: "Hersclinic Website and E-Commerce",
+      desc: "Clinic profile and e-commerce.",
+      img: "/projects/hers_clinic.webp",
+      link: "https://hersclinic.id",
+      tech: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "PHP",
+        "Codeigniter",
+        "MySQL",
+      ],
+    },
+    {
+      title: "Hersclinic POS and Clinic System",
+      desc: "POS with Clinic System",
+      img: "/projects/pos_hersclinic.webp",
+      link: "https://smhc.hersclinic.id",
+      tech: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "PHP",
+        "Codeigniter",
+        "MySQL",
+      ],
     },
   ];
 

@@ -6,7 +6,6 @@ import {
   Flex,
   SimpleGrid,
   Tab,
-  TabIndicator,
   TabList,
   TabPanel,
   TabPanels,
@@ -28,17 +27,46 @@ import { SiMicrosoftsqlserver } from "@react-icons/all-files/si/SiMicrosoftsqlse
 import { SiGithub } from "@react-icons/all-files/si/SiGithub";
 import { SiGitlab } from "@react-icons/all-files/si/SiGitlab";
 import { FaVuejs } from "@react-icons/all-files/fa/FaVuejs";
+import { SiHtml5 } from "@react-icons/all-files/si/SiHtml5";
+import { SiCss3 } from "@react-icons/all-files/si/SiCss3";
+import { SiTailwindcss } from "@react-icons/all-files/si/SiTailwindcss";
+import { SiBootstrap } from "@react-icons/all-files/si/SiBootstrap";
 import React from "react";
 import SectionTitle from "../compliments/SectionTitle";
 import Animate from "../animation/Animate";
 
 const TechStack = () => {
-  const tabs = ["Languages", "Framework or Library", "Database", "Others"];
+  const tabs = [
+    "Web",
+    "Languages",
+    "Framework or Library",
+    "Database",
+    "Others",
+  ];
   const iconSize = 40;
 
-  const { isOpen, onToggle } = useDisclosure();
-
   const techStack = [
+    {
+      category: "Web",
+      list: [
+        {
+          text: "HTML",
+          icon: <SiHtml5 size={iconSize} />,
+        },
+        {
+          text: "CSS",
+          icon: <SiCss3 size={iconSize} />,
+        },
+        {
+          text: "Bootstrap",
+          icon: <SiBootstrap size={iconSize} />,
+        },
+        {
+          text: "Tailwind CSS",
+          icon: <SiTailwindcss size={iconSize} />,
+        },
+      ],
+    },
     {
       category: "Languages",
       list: [

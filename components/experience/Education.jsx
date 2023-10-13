@@ -18,7 +18,7 @@ const Education = () => {
       institute: "Politeknik Negeri Padang",
       position: "Associate Degree in Information Technology",
       period: "Sep 2016 - Sep 2019",
-      tech: ["GPA - 3.78", "Web Development", "Android Development"],
+      tech: ["GPA - 3.78", "Web Development", "Information System"],
     },
   ];
 
