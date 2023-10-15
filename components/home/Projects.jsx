@@ -113,7 +113,7 @@ const Projects = () => {
       title: "Hersclinic POS and Clinic System",
       desc: "POS with Clinic System",
       img: "/projects/pos_hersclinic.webp",
-      link: "https://smhc.hersclinic.id",
+      link: "https://smhc.hersclinic.id/auth/login",
       tech: [
         "HTML",
         "CSS",
@@ -131,7 +131,7 @@ const Projects = () => {
   const borderColorHover = useColorModeValue("purple.600", "purple.300");
 
   return (
-    <Box>
+    <Box as="section">
       <Container maxW="container.md">
         <SectionTitle number="03" title="Projects" />
         <Box my="2.5rem">

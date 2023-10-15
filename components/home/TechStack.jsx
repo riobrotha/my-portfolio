@@ -144,7 +144,7 @@ const TechStack = () => {
   const selectedTabColor = useColorModeValue("purple.400", "purple.800");
 
   return (
-    <Box>
+    <Box as="section">
       <Container maxW="container.md">
         <SectionTitle number="02" title="Tech Stack" />
         <Box textAlign="center" my="2.5rem">

@@ -45,7 +45,7 @@ const WorkExperience = () => {
   ];
 
   return (
-    <Box mt={6}>
+    <Box as="section" mt={6}>
       <Container maxW="container.md">
         <Animate delay={0.1}>
           <SectionTitle number="01" title="Work Experience" />

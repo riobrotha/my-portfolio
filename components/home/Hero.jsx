@@ -15,7 +15,7 @@ const Hero = () => {
   const { colorMode } = useColorMode();
 
   return (
-    <Box>
+    <Box as="section">
       <Container maxW="container.xl">
         <Flex
           justifyContent={"center"}

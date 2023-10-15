@@ -23,7 +23,7 @@ const Education = () => {
   ];
 
   return (
-    <Box mt={6} mb={{ base: 12, md: 6 }}>
+    <Box as="section" mt={6} mb={{ base: 12, md: 6 }}>
       <Container maxW="container.md">
         <Animate delay={0.1}>
           <SectionTitle number="02" title="Education" />
