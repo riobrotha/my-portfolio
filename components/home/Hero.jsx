@@ -70,9 +70,11 @@ const Hero = () => {
           </Animate>
           <Animate delay={0.35}>
             <Flex gap={4} alignItems="center">
-              <Button colorScheme="red" rounded="full">
-                Download CV
-              </Button>
+              <Link target="_blank" href="https://s.id/1Vsry">
+                <Button colorScheme="red" rounded="full">
+                  Download Resume
+                </Button>
+              </Link>
               <Link href="/contact">
                 <Button colorScheme="gray" variant="link" rounded="full">
                   Contact Me

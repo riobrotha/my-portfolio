@@ -7,7 +7,10 @@ const variants = {
 };
 const Reveal = ({ children }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref, {
+    once: true,
+    margin: "0px 200px -100px 0px",
+  });
 
   const animateControls = useAnimation();
 
@@ -16,7 +19,8 @@ const Reveal = ({ children }) => {
       //activate animation
       animateControls.start("entrance");
     }
-  }, [isInView, animateControls]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isInView]);
 
   return (
     <motion.div
